@@ -233,6 +233,7 @@ actions: <Widget>[
   _showAddDialog(){
 showDialog(context: context,
 builder: (context)=>AlertDialog(
+   title: Text("Add Reminder"),
   content: TextField(
 controller: _eventcontroller,
   ),
